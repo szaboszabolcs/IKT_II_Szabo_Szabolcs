@@ -9,7 +9,7 @@ using TodoApi.Models;
 
 namespace Web_API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[TodoItems]")]
     [ApiController]
     public class TodoItemsController : ControllerBase
     {
@@ -26,6 +26,10 @@ namespace Web_API.Controllers
         {
             return await _context.TodoItems.ToListAsync();
         }
+
+        /*A következő GetTodoItemmódszerben "{id}"egy helyőrző változó a teendő elem egyedi azonosítójához.
+         *Amikor GetTodoItemmeghívásra kerül, "{id}"az URL-ben lévő érték a metódus számára a idparaméterében lesz megadva.
+        */
 
         // GET: api/TodoItems/5
         [HttpGet("{id}")]
