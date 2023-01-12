@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sRxPL5zo1vllSWDPUdKjy5oEEOKKd30yb+oGWKGZVSg=",
+  "Source": "Movie_Web_API",
+  "BasePath": "_content/Movie_Web_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
